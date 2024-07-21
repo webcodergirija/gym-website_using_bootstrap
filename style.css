@@ -1,4 +1,12 @@
+body{
+    background-color: black !important;
+}
 /* --navbar-section---- */
 .navbar-nav {
   font-weight: 600 !important;
+}
+.carousel-item img{
+    height: 50vh !important;
+    object-fit: cover !important;
+    object-position: center !important;
 }
