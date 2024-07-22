@@ -1,12 +1,8 @@
-body{
-    background-color: black !important;
-}
+
 /* --navbar-section---- */
-.navbar-nav {
+.navbar{
+  background-color: black;
   font-weight: 600 !important;
+  font-size: 1.4rem;
 }
-.carousel-item img{
-    height: 50vh !important;
-    object-fit: cover !important;
-    object-position: center !important;
-}
+
