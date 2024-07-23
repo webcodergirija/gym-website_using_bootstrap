@@ -1,8 +1,67 @@
-
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  background-color: black;
+}
 /* --navbar-section---- */
-.navbar{
+.navbar {
   background-color: black;
   font-weight: 600 !important;
   font-size: 1.4rem;
 }
 
+.image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 0; /* Ensure no padding in image container */
+  margin: 0; /* Ensure no margin in image container */
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.centered-text button {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  background-color: #007bff; /* Bootstrap primary color */
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.centered-text button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block; /* Remove bottom white space */
+}
+#offer-section {
+  background-color: black;
+}
+.offer-header {
+  color: yellow;
+  font-size: 3rem;
+
+  font-weight: 900;
+}
+h5{
+  color: white;
+}
