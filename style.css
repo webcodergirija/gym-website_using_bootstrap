@@ -10,7 +10,7 @@ html {
 .navbar {
   background-color: black;
   font-weight: 600 !important;
-  font-size: 1.4rem;
+  /* font-size: 1.4rem; */
 }
 
 .image-container {
@@ -64,4 +64,28 @@ html {
 }
 h5{
   color: white;
+}
+.image-wrapper{
+  position: relative;
+  display: inline-block;
+  
+
+}
+.imagee-wrapper img{
+  width: 100%;
+  height: auto;
+}
+.image-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 800px){
+ #btn-nav{
+  font-size: 1rem;
+ }
 }
